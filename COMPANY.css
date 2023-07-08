@@ -1,0 +1,15 @@
+.header{
+    background-color: orangered !important;
+    padding-bottom: 100px;
+}
+.input{
+    width: 50% !important;
+    margin: auto;
+}
+p{
+    margin-bottom: 0% !important;
+}
+.fa-signal-bars{
+    font-size: 100px;
+    color: orangered;
+}

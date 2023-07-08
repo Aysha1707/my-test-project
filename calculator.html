@@ -1,0 +1,89 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="body">
+        <div class="container">
+            <div class="row">
+                <div class="">
+                    <input type="text" class="Screen ml-4">
+                </div>
+            </div>
+            <div class="action btn ml-3">
+                <div class="row">
+                    <h3 class="col-3" onclick="on()">A/C</h3>
+                    <h3 class="col-3" onclick="del()">Del</h3>
+                    <h3 class="col-3" onclick="calculate('%')">%</h3>
+                    <h3 class="col-3" onclick="clr()">OFF</h3>
+                </div>
+                <div class="row">
+                    <h3 class="col-3" onclick="calculate(7)">7</h3>
+                    <h3 class="col-3" onclick="calculate(8)">8</h3>
+                    <h3 class="col-3" onclick="calculate(9)">9</h3>
+                    <h3 class="col-3" onclick="calculate('*')">*</h3>
+                </div>
+                <div class="row">
+                    <h3 class="col-3" onclick="calculate(4)">4</h3>
+                    <h3 class="col-3" onclick="calculate(5)">5</h3>
+                    <h3 class="col-3" onclick="calculate(6)">6</h3>
+                    <h3 class="col-3" onclick="calculate('+')">+</h3>
+                </div>
+                <div class="row">
+                    <h3 class="col-3" onclick="calculate(1)">1</h3>
+                    <h3 class="col-3" onclick="calculate(2)">2</h3>
+                    <h3 class="col-3" onclick="calculate(3)">3</h3>
+                    <h3 class="col-3" onclick="calculate('-')">-</h3>
+                </div>
+                <div class="row">
+                    <h3 class="col-3" onclick="calculate(0)">0</h3>
+                    <h3 class="col-3" onclick="calculate('.')">.</h3>
+                    <h3 class="col-3" onclick="Result()">=</h3>
+                    <h3 class="col-3" onclick="calculate('/')">/</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        let resultScreen = document.querySelector('.Screen')
+
+        let calculate = (Number) => {
+            resultScreen.value += Number;
+        }
+
+        function Result(){
+            try{
+                resultScreen.value = eval(resultScreen.value)
+            }
+            catch(err){
+                resultScreen.value = ['error!']
+            }
+        }
+
+        function clr() {
+            resultScreen.value = ''
+        }
+
+        function on() {
+            resultScreen.value = ''
+        }
+
+        function del () {
+            resultScreen.value = resultScreen.value.slice(0, -1)
+        }
+    </script>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

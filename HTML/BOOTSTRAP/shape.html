@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shape</title>
+</head>
+<body>
+<style>
+    .container{
+        position: relative;
+        top: 15px;
+        left: 400px;
+        background-color: grey;
+        width: 500px;
+        height: 600px;
+        overflow: hidden;
+
+    }
+    .square{
+        position: absolute;
+        z-index: 1;
+        left: 120px;
+        top: 120px;
+        height: 350px;
+        width: 250px;
+        background-color: white;
+        overflow: hidden!important;
+    
+    }
+    .tlcircle{
+        position: absolute;
+        z-index: 1;
+        left: 80px;
+        top: 90px;
+        height: 100px;
+        width: 100px;
+        background-color: blue;
+        border-radius: 100%
+        
+    }
+    .trcircle{
+        position: absolute;
+        z-index: 1;
+        right: 80px;
+        top: 90px;
+        height: 100px;
+        width: 100px;
+        background-color: blue;
+        border-radius: 100%;
+    }
+    .blcircle{
+        position: absolute;
+        z-index: 1;
+        left: 80px;
+        bottom: 90px;
+        height: 100px;
+        width: 100px;
+        background-color: blue;
+        border-radius: 100%;
+    }
+    .brcircle{
+        position: absolute;
+        z-index: 1;
+        right: 80px;
+        bottom: 90px;
+        height: 100px;
+        width: 100px;
+        background-color: blue;
+        border-radius: 100%;
+        
+    }
+</style>
+
+    <div class="container">
+        <div class="square"></div>
+        <div class="tlcircle"></div>
+        <div class="trcircle"></div>
+        <div class="blcircle"></div>
+        <div class="brcircle"></div>
+    </div>
+</body>
+</html>

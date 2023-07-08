@@ -1,0 +1,158 @@
+.frame{
+    position: relative;
+    top: 15px;
+    left: 400px;
+    background-color: grey;
+    width: 500px;
+    height: 600px;
+}
+.header{
+    position: absolute;
+    z-index: 1;
+    left: 80px;
+    top: 30px;
+    height: 520px;
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.side{
+    position: absolute;
+    background-color: rgb(50, 26, 187);
+    z-index: 1;
+    left: 0px;
+    top: 0px;
+    height: 80px;
+    width: 320px;
+    border-bottom-right-radius: 100%;
+}
+.center{
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    top: 0px;
+    height: 80px;
+    width: 270px;
+    background-color: rgb(30, 36, 142);
+    border-bottom-right-radius: 100%;
+    font-size: 15px;
+    color: white;
+    padding-left:9px;
+    padding-top: 5px;
+}
+.img{
+    background-image: url(./samples.html/ogun-state-college-of-health-technology.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    top:30px;
+    left: 190px;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    border: 3px solid rgb(69, 69, 165);
+}
+span{
+    font-size: 11px;
+}
+.end{
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    bottom: 0px;
+    height: 36px;
+    width: 215px;
+    background-color: rgb(30, 36, 142);
+    border-top-right-radius:80%;
+    color: white;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+#year{
+    color:gold;
+    font-size: medium;
+}
+.ended{
+    position: absolute;
+    z-index: 1;
+    right: 0px;
+    bottom: 0px;
+    height: 35px;
+    width: 130px;
+    background-color: rgb(30, 36, 124);
+    border: 80%;
+    clip-path: polygon(100% 10%, 100% 90%, 90% 100%, 10% 100%, 10% 100%, 0% 10%);
+    /* border-bottom-left-radius:90%; */
+}
+.circle{
+    background-image: url();
+    position: absolute;
+    z-index: 1;
+    border-bottom-right-radius:30px ;
+}
+.text{
+    position: absolute;
+    z-index: 1;
+    top:150px;
+    left:60px;
+    writing-mode: vertical-lr;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    height: 160px;
+    text-shadow: 0px 7px 2px
+}
+.content{
+    position: absolute;
+    z-index: 1;
+    top: 310px;
+    left: 40px;
+    color: rgb(20, 20, 117);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    width: 300px;
+    padding-left: 0px;
+    
+}
+.name{
+    position: absolute;
+    font-size: large;
+}
+#idnumber, #nd{
+    color: black;
+}
+#programme{
+    font-size: 12px;
+}
+.img2{
+    background-image: url(./samples.html/PhotoGrid_1558399233376.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    top:25px;
+    left: 40px;
+    width: 160px;
+    height: 120px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 2px 2px 2px black;
+}
+.sign{
+    position: absolute;
+    z-index: 1;
+    top: 380px;
+    left: 90px;
+}
+hr{
+    /* position:absolute; */
+    /* z-index: 2; */
+    /* top:450px ; */
+    background-color: red;
+    height: 1px;
+}
+#sn{
+    color: red;
+    font-size: 17px;
+}

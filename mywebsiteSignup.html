@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mywebsiteSignup</title>
+    <link rel="stylesheet" href="mywebsite.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="col-md-12">
+        <div class="row" id="signup">
+            <div class="col-md-6 pt-5" id="signupLHS">
+                <h1 id="signupWelcome">Welcome to Emusid Farm</h1>
+                <!-- <h4 id="signupText">SignUp Seamlessly</h4> -->
+                <!-- <p class="signupText text-white">Create an account from your phone with your</p>
+                <p class="text-white">Email and phone number</p>
+                <button class="btn mt-5" type="btn" id="signupbtn"><a href="">Get Started</a></button> -->
+            </div>
+            <div class="col-md-6" id="signupRHS">
+                <h5 class="mt-5 text-center"> <b >Create your account</b></h5>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1" class="signupText2">Your Name</label>
+                        <input class="col-6 form-control m-auto" id="nameInput" aria-describedby="emailHelp" placeholder="John Doe">
+                        <label for="exampleInputEmail1" class="signupText2">Email</label>
+                        <input type="email" class="col-6 form-control m-auto" id="mail2" aria-describedby="emailHelp" placeholder="John@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1" class="signupText2">Password</label>
+                        <input type="password" id="password2" class="col-6 form-control m-auto" placeholder="At least 8 characters" aria-label="Recipient's username" aria-describedby="button-addon2" onkeyup="sign()">
+                        <p ><b id="print2"></b></p>
+                    </div>
+                    <p class="create text-center"><b>By creating an account, you agree to the</b></p>
+                    <p class="create text-center"><a href="" class="terms"><u><b>Terms and conditions.</b></u></a></p>
+                    <div class="sss text-center">
+                        <button class="btn col-4" id="signupbtn2" onclick="create()">Create an Acoount</button>
+                    </div>
+                    <p class="create text-center mt-4 mb-3"><b>Already have an account? <a href="">Sign In</a></b></p>
+                </form>
+            </div>
+        </div>
+    
+    </div>
+
+
+    <script src="mywebsite.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+nav{
+    margin-top: 30px;
+}
+.navbar-brand{
+    margin-left: 100px;
+}
+.middleNav{
+    margin-left: 350px !important;
+}
+.navsign{
+    padding-left:0% !important;
+}
+.nav-item{
+    padding-left: 90px !important;
+}
+.nav-item2{
+    padding-left: 0% !important;
+}
+.content1{
+    margin-top: 50px;
+}
+.content4{
+    margin-bottom: 50px;
+}
+.checked{
+    font-size: 20px;
+    color: goldenrod;
+}
+.fa-square-check{
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(14, 175, 175);
+}
+.fa-clock{
+    font-size: 40px;
+    color: blue;
+}
+.content2{
+    padding-top: 0px !important ;
+}
+.amazing{
+    margin-left:40px !important;
+}
+.btn-primary{
+    background-color: hsl(258deg 83% 45%)!important;
+}
+.backG{
+    background-color: hsl(258deg 83% 45%)!important;
+}
+p{
+    margin-bottom: 0%!important;
+}
+.Name{
+    color: hsl(258deg 83% 45%)!important;
+}
+.free{
+    color: hsl(258deg 83% 45%)!important;
+}

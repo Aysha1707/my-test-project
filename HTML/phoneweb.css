@@ -1,0 +1,65 @@
+
+body{
+    background-color: purple;
+}
+.content{
+    background-color: black;
+    margin-top: 20px;
+}
+.contentinner{
+    background-color: rgb(10, 10, 10);
+}
+/* .footerinner{
+    background-color: white;
+} */
+
+
+
+
+/* .frame{
+    position: relative;
+    background-color: purple;
+    width: 90%;
+    height: 1100px;
+    top: 25px;
+    left: 60px;
+}
+.content{
+    position: absolute;
+    z-index: 1;
+    background-color: black;
+    width: 90%;
+    height: 1030px;
+    top: 50px;
+    left: 60px;
+}
+.contentinner{
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(10, 10, 10);
+    width: 95%;
+    height: 450px;
+    top: 25px;
+    left: 25px;
+    
+}
+
+.footer{
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    width: 95%;
+    height: 500px;
+    top: 510px;
+    left: 20px;
+}
+.footerinner{
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(255, 245, 245);
+    width: 80%;
+    height: 450px;
+    top: 25px;
+    left: 25px;
+}
+ */

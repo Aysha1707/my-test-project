@@ -1,0 +1,42 @@
+body{
+    background-color: lawngreen;
+    color: red;
+    font-size: large;
+}
+h2{
+    color: darkmagenta;
+    text-align: center;
+}
+span{
+    color: saddlebrown;
+}
+select{
+    width: 300px;
+    height: 30px;
+    background-color: white;
+}
+input{
+    width: 300px;
+    height: 25px;
+    background-color: white;
+}
+label{
+    margin-left: 20px;
+}
+button{
+    width: 120px!important;
+    height: 30px;
+    margin-left: 30px!important;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+}
+button:hover{
+    background-color: chocolate;
+    color: white;
+    border: 2px white;
+}
+table{
+    margin-top: 20px;
+    width: 100%;
+}

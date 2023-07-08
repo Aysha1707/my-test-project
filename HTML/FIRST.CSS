@@ -1,0 +1,13 @@
+table{
+    width: 100%; 
+}
+/* td{
+    background-image: url(./CR-foodtray.jfif);
+    background-repeat: no-repeat;
+    width: 100%; height: 1000px;
+    
+} */
+.img1{
+    width: 100% !important;
+    height: 500px;
+}

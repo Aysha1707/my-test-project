@@ -1,0 +1,47 @@
+body{
+    background-color: navy!important;
+    color: white!important;
+    padding-top: 20px;
+}
+button{
+    margin-bottom: 20px!important;
+    
+}
+table{
+    margin-top: 10px!important;
+    width: 100%;
+    border: black;
+}
+select, input{
+    width: 250px;
+    height: 30px;
+    margin-left: 30px;
+}
+button{
+    width: 120px!important;
+    height: 30px;
+    margin-left: 30px!important;
+    border-bottom-right-radius: 10px !important;
+    border-top-left-radius: 10px!important;
+}
+button:hover{
+    background-color: rebeccapurple;
+    color: white;
+    border: 2px white;
+}
+label{
+    margin-left: 30px;
+    
+}
+input{
+     margin-left: 0;
+     background-color: white;
+}
+h2{
+    text-align: center;
+    font-size: xx-large;
+    color: darkorange;
+}
+span{
+    color: crimson;
+}

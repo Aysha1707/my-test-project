@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>foodTT</title>
+    <link rel="stylesheet" href="foodTT.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!--     
+    <div>
+        <p id="menu"></p>
+
+        <select name="" id="Day" onchange="clicker(event)">
+            <option value="">select</option>
+        </select>
+
+        <input type="text" id="click">
+        <button type="button" onclick= "aisha(event)">Search</button>
+    </div> -->
+
+    <h2>Food <span>Timetables</span></h2>
+    <label for="">Day:</label>
+    <select name="" id="Day">
+        <option value="">select Day</option>
+    </select>
+    <label for="">Period:</label>
+    <select name="" id="Period">
+        <option value="">select Period</option>
+    </select>
+    <label for="">Menu:</label>
+    <!-- <input type="text" id="Menu" disabled>  -->
+    <button id="btn" onclick="clicker()">View</button>
+
+
+    <table border="1" cellspacing="0">
+        <thead>
+            <tr>
+                <th>S/N</th>
+                <th>DAYS</th>
+                <th>PERIOD</th>
+                <th>FOOD</th>
+                <th>DELETE</th>
+            </tr>
+        </thead>
+        <tbody id="foodTT"></tbody>
+    <table>
+
+
+<script src="foodTT.js"></script>
+</body>
+</html>

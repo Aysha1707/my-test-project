@@ -1,0 +1,84 @@
+.row{
+    overflow: hidden;
+}
+.LHS{
+    background-image: url(./HTML/BOOTSTRAP/Alat-banner.1c3be380.png);
+    background-repeat: no-repeat;
+
+}
+.logo{
+    padding-top: 80px;
+    padding-left: 180px;
+}
+.seam{
+    padding-left: 180px;
+}
+.open{
+    padding-left: 180px;
+    padding-top: 30px;
+}
+#get{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:180px;
+    color: rgb(136, 12, 54);
+}
+.media{
+    padding-top: 20px;
+    font-size: 30px;
+    padding-left: 180px;
+    padding-bottom:65px;
+}
+.fa-facebook{
+    padding-left: 10px;
+    /* border-radius: 80%; */
+}
+.fa-twitter{
+    padding-left: 10px;
+    /* border-radius: 100%; */
+}
+.RHS{
+    color: rgb(136, 12, 54);
+
+}
+.goto{
+    padding-top: 80px;
+}
+.welcome{
+    padding-left: 60px;
+}
+.fa-minus{
+    font-size: 4px;
+    margin-left: 60px;
+    padding-left: 40px;
+    background-color: rgb(136, 12, 54);
+}
+form{
+    padding-top: 20px;
+    padding-left: 60px;
+}
+input{
+    width: 365px !important;
+}
+.btn2{
+    width: 365px; 
+    background-color: rgb(136, 12, 54) !important;
+    margin-bottom: 20px;
+}
+.pass{
+    color: rgb(136, 12, 54);
+    padding-left: 170px;
+}
+.fa-eye-slash{
+    font-size: 15px;
+    padding-left: 0px;
+    background-color: white;
+}
+.help{
+    color:rgb(136, 12, 54);
+    padding-left: 60px;
+}
+.call{
+    color: rgb(136, 12, 54);
+    padding-left: 150px;
+}

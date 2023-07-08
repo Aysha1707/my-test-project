@@ -1,0 +1,91 @@
+navbar{
+    opacity: 0.7;
+}
+.menuitem-hover{
+    background-color: orangered !important;
+}
+h5{
+    word-spacing: 10px;
+}
+.carousel-indicators li{
+    height: 10px !important; 
+    width: 10px !important;
+    border-radius: 100% !important;
+}
+.bandtext{
+    margin-top: 50px;
+}
+.bandimg{
+    border-radius: 50%;
+    margin-bottom: 70px;
+}
+h6{
+    margin-bottom: 60px;
+}
+.theband{
+    margin-bottom: 30px;
+}
+.tour{
+    margin-bottom: 100px;
+    background-color: black;
+    padding-bottom: 150px;
+}
+.td{
+    padding-top: 80px;
+}
+.card{
+    margin-bottom: 20px;
+    width: 69rem;
+}
+.soldout{
+    height: 25px;
+    border: none;
+}
+.sanfran{
+    margin-left: 0%;
+}
+.buy{
+    border: none;
+}
+.form2{
+    margin-left: 20px;
+}
+.form3a{
+    width: 83%;
+    height: 120px;
+    margin-top: 20px;
+}
+.send{
+    background-color: black;
+    color: white;
+    margin-left: 500px !important;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+.fa-location-dot{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.fa-mobile-screen{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.fa-envelope{
+    font-size: 30px;
+}
+.c{
+    margin-left: 10px;
+}
+h3{
+    margin-top: 20px;
+}
+.Blog{
+    padding-bottom: 100px;
+}
+.fa-angle-up{
+    font-size:15px;
+    padding-top: 30px;
+}
+.badge{
+    margin-left: 970px;
+}

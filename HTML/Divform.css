@@ -1,0 +1,31 @@
+body{
+    background-image: url(./CR-foodtray.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    background-color: rgba(0, 0, 0, 0.171);
+    color: white;
+    padding: 30px;
+}
+div{
+    margin: auto;
+    margin-top: 200px;
+    width: 25%;
+    height: 300px;
+    padding-left: 30px;
+}
+input{
+    border: none;
+    border-radius: 10px;
+    height: 32px;
+    width: 95%
+}
+#CR{
+    background-color:brown;
+    color: white;
+    cursor: pointer;
+}
+img{
+    border-radius: 50px;
+}

@@ -1,0 +1,28 @@
+.body{
+    background-color: black;
+    height: 450px;
+    margin:70px 500px;
+    width: 345px;
+    padding-top: 15px;
+    border-radius: 10px;
+}
+.screen{
+    height: 100px;
+    background-color: blue;
+    color: white !important;
+    width: 290px;
+    border-radius: 10px;
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+.row{
+    text-align: center;
+}
+.col-3{
+    background-color: blue;
+    color: white !important;
+    height: 50px;
+    width: 80%;
+    border-radius: 10px;
+    padding-top: 7px;
+}

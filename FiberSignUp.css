@@ -1,0 +1,23 @@
+.backG{
+    background-color: hsl(258deg 83% 45%)!important;
+    padding-bottom: 80px!important;
+}
+.create{
+    margin-top:30px!important;
+}
+.terms{
+    color: hsl(258deg 83% 45%)!important;
+}
+.btn-primary{
+    background-color: hsl(258deg 83% 45%)!important;
+}
+.carousel-indicators li{
+    height: 10px !important; 
+    width: 10px !important;
+    border-radius: 100% !important;
+    background-color: white;
+    /* margin-bottom: 20px; */
+}
+p{
+    margin-bottom: 0%;
+}

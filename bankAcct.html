@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BankAcct</title>
+</head>
+<body>
+    <style>
+        div{
+            background-color: crimson;
+            color: white;
+            padding: 50px 250px;
+            
+        }
+        select, #check, p{
+            margin-top: 20px;
+        }
+        
+    </style>
+    <div>
+        <h3>Account Enquiries</h3>
+        <p id="response"></p>
+        <input type="number" id="balanceInput">
+
+        <p id="AcctName"></p>
+        <input type="number" id="AcctNo" onkeyup="ActiveBtn(event)"> <br>
+        <label for="">Account Status</label> 
+
+        <select name="" id="activeAccount">
+            <option value="1">True</option>
+            <option value="0">False</option>
+        </select> <br>
+        <label for="">Balance Sheet</label>
+        <select name="" id="balanceAccount">
+            <option value="1">True</option>
+            <option value="0">False</option>
+        </select> <br>
+
+        <input type="button" id="check" value="Check Balance" onclick="Aisha(event)">
+    </div>
+    <script src="bankAcct.js"></script>
+</body>
+</html>

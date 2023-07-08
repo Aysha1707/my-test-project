@@ -1,0 +1,137 @@
+.header{
+    background-color: orangered;
+
+}
+.headercontent{
+    /* paddging-top: 100px;f */
+    padding-bottom: 120px;
+}
+/* .company{ */
+    /* font-size: xxx-large; */
+/* } */
+.we{
+    font-size: x-large;
+
+}
+.btn{
+    position: absolute;
+    z-index: 1;
+    margin-left: 35.5%;
+}
+.about{
+    padding-top: 30px;
+}
+.aboutlorem{
+    padding-top: 30px;
+}
+/* .div1{
+    background-color: orangered;
+    height: 300px;
+    width: 5%;
+} */
+
+.input-group{
+    justify-content: center;
+}
+
+.form-control{
+    width: 350px !important;
+}
+.cellphonesignal{
+  width:70%;
+  height: 200px;
+  color: orangered !important;
+}
+.span{
+    width: 100px;
+    height: 200px;
+    color: orangered;
+}
+.card-title{
+    background-color: orangered;
+    color: white;
+    height: 120px;
+    text-align: center;
+    padding-top: 30px;
+}
+.card{
+    
+    padding-bottom: 50px;
+}
+.card-text{
+    padding-left: 150px;
+}
+.card-footer{
+    margin-bottom: 30px;
+}
+.signup{ 
+    margin-top: 30px;
+    margin-left: 130px;
+    background-color: orangered;
+}
+.details{
+    padding-bottom: 50px;
+}
+.fa-power-off{
+    padding-top: 40px;
+    color:orangered;
+    font-size:50px;
+}
+.fa-heart{
+    padding-top: 40px;
+    color:orangered;
+    font-size:50px;
+}
+.fa-unlock-keyhole{
+    padding-top: 40px;
+    color:orangered;
+    font-size:50px;
+}
+.fa-leaf{
+    color:orangered;
+    font-size:50px;
+    padding-top: 40px;
+}
+.fa-certificate{
+    color:orangered;
+    font-size:50px;
+    padding-top: 40px;
+}
+.fa-wrench{
+    color:orangered;
+    font-size:50px;
+    padding-top: 40px;
+}
+.fa-earth-africa{
+    color: orangered;
+    font-size: 200px;
+    padding: 80px 50px;
+}
+.fa-location-dot{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.fa-mobile-screen{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.fa-envelope{
+    font-size: 20px;
+}
+.c{
+    margin-left: 10px;
+}
+.form2{
+    margin-left: 20px;
+}
+.form3a{
+    width: 91%;
+    height: 120px;
+}
+.send{
+    margin-left: 650px !important;
+    border: 2px solid black;
+}
+.foot{
+    padding: 100px;
+}
